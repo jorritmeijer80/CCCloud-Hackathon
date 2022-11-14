@@ -1,8 +1,11 @@
-# What The Hack - Intro To Kubernetes
+# What The Hack - Azure Container Solutions in the mix
 
 ## Introduction
 
-This intro level hack will help you get hands-on experience with Docker, Kubernetes and the Azure Kubernetes Service (AKS) on Microsoft Azure. Kubernetes has quickly gone from being the shiny new kid on the block to the defacto way to deploy and orchestrate containerized applications.
+Welcome to all of you, dear hackathon attendees. Welcome, to the first 'Competence Center Cloud' Hackathon!
+Yes, we know, a hackathon is supposed to run 24 to 48 hours, but this is our short version of such an event. In fact you will have exactly 90 minutes to build and/or implement a number of solutions to deal with our challenge. The best part? You will be working side by side with colleagues you already know but also with collegeaus you might no know just yet. Our pro-tip: work togheter to learn and get most of the work done within 90 minutes.
+
+This intro level hack will help you get hands-on experience with Containers and possible container solutions on Microsoft Azure. 
 
 This hack starts off by covering containers, what problems they solve, and why Kubernetes is needed to help orchestrate them.  You will learn all of the Kubernetes jargon (pods, services, and deployments, oh my!).  By the end, you should have a good understanding of what Kubernetes is and be familiar with how to run it on Azure.
 
@@ -15,6 +18,8 @@ In this hack you will solve a common challenge for companies migrating to the cl
 1. Understand key Kubernetes management areas: scalability, upgrades and rollbacks, storage, networking, package management and monitoring
 
 ## Challenges
+
+
 
 - Challenge 00: **[Prerequisites - Ready, Set, GO!](Student/Challenge-00.md)**
 	 - Prepare your workstation to work with Azure, Docker containers, and AKS
