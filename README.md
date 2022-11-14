@@ -5,46 +5,26 @@
 Welcome to all of you, dear hackathon attendees. Welcome, to the first 'Competence Center Cloud' Hackathon!
 Yes, we know, a hackathon is supposed to run 24 to 48 hours, but this is our short version of such an event. In fact you will have exactly 90 minutes to build and/or implement a number of solutions to deal with our challenge. The best part? You will be working side by side with colleagues you already know but also with collegeaus you might no know just yet. Our pro-tip: work togheter to learn and get most of the work done within 90 minutes.
 
-This intro level hack will help you get hands-on experience with Containers and possible container solutions on Microsoft Azure. 
-
-This hack starts off by covering containers, what problems they solve, and why Kubernetes is needed to help orchestrate them.  You will learn all of the Kubernetes jargon (pods, services, and deployments, oh my!).  By the end, you should have a good understanding of what Kubernetes is and be familiar with how to run it on Azure.
+This intro level hack will help you get hands-on experience with Docker containers and possible container solutions on Microsoft Azure.
+After this hack, you will have a basic understanding of Docker Containers, Azure Container Registry and Azure Container solutions.
 
 ## Learning Objectives
 
-In this hack you will solve a common challenge for companies migrating to the cloud. You will take a simple multi-tiered web app, containerize it, and deploy it to an AKS cluster. Once the application is in AKS, you will learn how to tweak all the knobs and levers to scale, manage and monitor it.
-
-1. Containerize an application
-1. Deploy a Kubernetes cluster in Azure and deploy applications to it.
-1. Understand key Kubernetes management areas: scalability, upgrades and rollbacks, storage, networking, package management and monitoring
+You will learn about Docker Containers, how to run them locally, how to build them, tag them and upload them to the native container registry in Azure: Azure Container Registry.
+During the open challenge you will try and figure out which solution Azure has to offer to run containers and deploy as many of them as you can.
 
 ## Challenges
-
-
 
 - Challenge 00: **[Prerequisites - Ready, Set, GO!](Student/Challenge-00.md)**
 	 - Prepare your workstation to work with Azure, Docker containers, and AKS
 - Challenge 01: **[Got Containers?](Student/Challenge-01.md)**
-	 - Package the "FabMedical" app into a Docker container and run it locally.
+	 - Package the "acr-helloworld" app into a Docker container and run it locally.
 - Challenge 02: **[The Azure Container Registry](Student/Challenge-02.md)**
-	 - Deploy an Azure Container Registry, secure it and publish your container.
-- Challenge 03: **[Introduction To Kubernetes](Student/Challenge-03.md)**
-	 - Install the Kubernetes CLI tool, deploy an AKS cluster in Azure, and verify it is running.
-- Challenge 04: **[Your First Deployment](Student/Challenge-04.md)**
-	 - Pods, Services, Deployments: Getting your YAML on! Deploy the "FabMedical" app to your AKS cluster.
-- Challenge 05: **[Scaling and High Availability](Student/Challenge-05.md)**
-	 - Flex Kubernetes' muscles by scaling pods, and then nodes. Observe how Kubernetes responds to resource limits.
-- Challenge 06: **[Deploy MongoDB to AKS](Student/Challenge-06.md)**
-	 - Deploy MongoDB to AKS from a public container registry.
-- Challenge 07: **[Updates and Rollbacks](Student/Challenge-07.md)**
-	 - Deploy v2 of FabMedical to AKS via rolling updates, roll it back, then deploy it again using the blue/green deployment methodology.
-- Challenge 08: **[Storage](Student/Challenge-08.md)**
-	 - Delete the MongoDB you created earlier and observe what happens when you don't have persistent storage. Fix it!
-- Challenge 09: **[Helm](Student/Challenge-09.md)**
-	 - Install Helm tools, customize a sample Helm package to deploy FabMedical, publish the Helm package to Azure Container Registry and use the Helm package to redeploy FabMedical to AKS.
-- Challenge 10: **[Networking and Ingress](Student/Challenge-10.md)**
-	 - Explore integrating DNS with Kubernetes services and explore different ways of routing traffic to FabMedical by configuring an Ingress Controller.
-- Challenge 11: **[Operations and Monitoring](Student/Challenge-11.md)**
-	 - Explore the logs provided by Kubernetes using the Kubernetes CLI, configure Azure Monitor and build a dashboard that monitors your AKS cluster
+	 - Deploy an Azure Container Registry, secure it and get some basic info out of it.
+- Challenge 03: **[Tinker with the docker image & Uploading it to your ACR](Student/Challenge-03.md)**
+	 - Update your container image and upload it to your ACR
+- Challenge 04: **[Use Azure Solutions to run your container](Student/Challenge-04.md)**
+	 - How many Azure container solutions can you find to host your container?
 
 ## Prerequisites
 
@@ -54,14 +34,10 @@ In this hack you will solve a common challenge for companies migrating to the cl
 - [**Azure CLI**](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
    - (Windows-only) Install Azure CLI on Windows Subsystem for Linux
    - Update to the latest
-   - Must be at least version 2.7.x
+   - Must be at least version 2.42.x
 - Alternatively, you can use the [**Azure Cloud Shell**](https://shell.azure.com/)
 - [**Visual Studio Code**](https://code.visualstudio.com/)
 
 ## Contributors
 
-- [Peter Laudati](https://github.com/jrzyshr)
-- [Gino Filicetti](https://github.com/gfilicetti)
-- [Israel Ekpo](https://github.com/izzymsft)
-- [Sowmyan Soman Chullikkattil](https://github.com/sowsan)
-- [Larry Claman](https://github.com/larryclaman)
+- [Jorrit Meijer](https://github.com/jorritmeijer80)
