@@ -26,7 +26,8 @@ Now, lets create an Azure Container Registry and store that container up there i
 
 1. Verify that you have provisioned a new Azure Container Registry (ACR) using a scripting language of your choice
 2. Verify that you have the values for **loginServer** and **name**
-3. Your ACR is ready for further steps, because the adminaccount is enabled and geo-replication is activated
+3. Verify that you can succesfully login to the ACR using "az acr login --name {acrName}
+4. Your ACR is ready for further steps, because the adminaccount is enabled and geo-replication is activated
 
 ## Learning Resources
 

@@ -9,6 +9,7 @@ In today's hackathon, you will be using an application called _hello-world_, whi
 ## Pull the hello-world application to your local system and build a container image using Docker
 
 The **acr-helloworld** application is made available on GitHub by Microsoft. You can find it here: https://github.com/Azure-Samples/acr-helloworld
+
 Clone the application to your local PC, build the container from the docker file and run it locally to see if it works.
 
 ## Success Criteria

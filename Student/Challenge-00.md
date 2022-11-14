@@ -25,16 +25,10 @@ In this challenge we'll be setting up all the tools we will need to complete our
 - **NOTE:** You can start the next challenge even if this one is still running by using the Azure Cloud Shell.
 - **Tip:** You can complete almost all of the challenges with the Azure Cloud Shell!  But be a good cloud architect and make sure you have experience installing the tools locally.
 
-### Student Resources
-
-Your coach will provide you with a `Resources.zip` file that contains resource files you will use to complete some of the challenges for this hack.  
-
-If you have installed all of the tools listed above on your local workstation, you should unpack the `Resources.zip` file there too.
-
-If you plan to use the Azure Cloud Shell, you should upload the `Resources.zip` file to your cloud shell first and then unpack it there.
-
 ## Success Criteria
 
 1. You have a bash shell at your disposal (WSL, Mac, Linux or Azure Cloud Shell)
-1. Running `az --version` shows the version of your Azure CLI
-1. Visual Studio Code is installed.
+2. Running `az --version` shows the version of your Azure CLI
+3. Visual Studio Code is installed.
+4. Docker Desktop is installed
+5. Azure Powershell module is installed
