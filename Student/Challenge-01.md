@@ -10,9 +10,9 @@ In today's hackathon, you will be using an application called _hello-world_, whi
 
 The **acr-helloworld** application is made available on GitHub by Microsoft. You can find it here: https://github.com/Azure-Samples/acr-helloworld
 
-Clone the application to your local PC, build the container from the docker file and run it locally to see if it works.
+Clone the application to your local PC, build the container from the docker file and run it locally to see if it works. **NOTE** In step 4 they tell you to run acr-helloworld, but this should be 'acrhelloworld' instead
 
 ## Success Criteria
 
-1. You have the **hello-world** image added to your local Docker repository
-2. You have the **hello-world** application running locally and validated that there is a running website at http://localhost:8080
+1. You have the **acrhelloworld** image added to your local Docker repository
+2. You have the **acrhelloworld** application running locally and validated that there is a running website at http://localhost:8080

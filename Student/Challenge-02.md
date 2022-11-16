@@ -11,16 +11,16 @@ You can use Azure container registries with your existing container development 
 In [Challenge-01](./Challenge-01.md) we took our first step in our journey. We have taken the sample application and packaged it as a container image, which was stored in the local docker container repository.
 Now, lets create an Azure Container Registry and store that container up there instead!
 
-## Assignment
+## Assignment 
 
-1. Create a new Resourcegroup in Azure to deploy the Azure Container Registry in
+1. Create a new Resourcegroup in Azure to deploy the Azure Container Registry in 
 2. Create an Azure Container Registry resource inside the new resourcegroup
 3. Write down the **loginServer** and **name** output. You will need them both throughout the rest of the excersises.
-4. Set the Azure Container Registry to the premium SKU
+4. Set the Azure Container Registry to the premium SKU and set admin-enabled to true
 5. Enable Geo-replication (West + North Europe)
-6. Enable the Azure Container Registry admin account
 
-**NOTE** Make sure to create the resources using a scripting language. You can pick the tool you like the most (example Azure CLI, ARM template, Powershell or Bicep)
+**NOTE:** Use **west-europe** as primary deployment target
+**NOTE:** Make sure to create the resources using a scripting language. You can pick the tool you like the most (example Azure CLI, ARM template, Powershell or Bicep)
 
 ## Success Criteria
 
