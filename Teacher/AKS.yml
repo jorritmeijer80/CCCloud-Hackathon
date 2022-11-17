@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: acr-helloworld
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: acr-helloworld
+  template:
+    metadata:
+      labels:
+        app: acr-helloworld
+    spec:
+      nodeSelector:
+        "kubernetes.io/os": linux
+      containers:
+      - name: acr-helloworld
+        image: wrtacrhackathon.azurecr.io/acr-helloworld:v1
+        env:
+        - name: ALLOW_EMPTY_PASSWORD
+          value: "yes"
+        ports:
+        - containerPort: 8080
+          name: http
